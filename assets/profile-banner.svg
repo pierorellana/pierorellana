@@ -1,41 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="Pierre Orellana Mobile and Software Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="430" viewBox="0 0 1280 430" role="img" aria-label="Pierre Orellana, Ingeniero de Software y Desarrollador Mobile">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0B0F12"/>
-      <stop offset="55%" stop-color="#0E1719"/>
-      <stop offset="100%" stop-color="#102729"/>
+      <stop offset="0%" stop-color="#07090C"/>
+      <stop offset="48%" stop-color="#0A1013"/>
+      <stop offset="100%" stop-color="#102326"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#59C8C7"/>
-      <stop offset="100%" stop-color="#9BE5E4"/>
+      <stop offset="0%" stop-color="#5ED7D4"/>
+      <stop offset="100%" stop-color="#B7E6E5"/>
     </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="18" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <radialGradient id="halo">
+      <stop offset="0%" stop-color="#5ED7D4" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#5ED7D4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#21454A" stroke-width="1" opacity="0.22"/>
+    </pattern>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
   </defs>
 
-  <rect width="1280" height="360" rx="28" fill="url(#bg)"/>
-  <circle cx="1115" cy="76" r="120" fill="#59C8C7" opacity="0.07"/>
-  <circle cx="1170" cy="310" r="170" fill="#59C8C7" opacity="0.04"/>
-  <path d="M0 305 C210 250, 300 352, 520 306 S850 250, 1280 315" fill="none" stroke="#59C8C7" stroke-opacity="0.18" stroke-width="2"/>
-  <path d="M0 325 C220 270, 350 365, 570 320 S900 270, 1280 336" fill="none" stroke="#9BE5E4" stroke-opacity="0.08" stroke-width="1.5"/>
+  <rect width="1280" height="430" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="430" rx="28" fill="url(#grid)" opacity="0.42"/>
+  <ellipse cx="1065" cy="150" rx="300" ry="240" fill="url(#halo)"/>
 
-  <g transform="translate(72,72)">
-    <rect x="0" y="0" width="82" height="82" rx="22" fill="#102326" stroke="#59C8C7" stroke-opacity="0.35"/>
-    <path d="M27 21h21c14 0 23 7 23 19 0 11-8 18-20 18H40v17H27V21zm13 11v15h9c6 0 9-3 9-8s-3-7-9-7h-9z" fill="url(#accent)"/>
+  <g opacity="0.42">
+    <path d="M760 80 C865 45 920 60 1012 117" fill="none" stroke="#3E777C" stroke-width="1.5"/>
+    <path d="M802 332 C914 298 1042 304 1198 350" fill="none" stroke="#3E777C" stroke-width="1.2"/>
+    <circle cx="785" cy="73" r="4" fill="#5ED7D4"/>
+    <circle cx="1012" cy="117" r="4" fill="#5ED7D4"/>
+    <circle cx="1198" cy="350" r="4" fill="#5ED7D4"/>
   </g>
 
-  <text x="72" y="205" fill="#F5F7F8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="44" font-weight="700" letter-spacing="0.4">PIERRE ORELLANA</text>
-  <text x="72" y="248" fill="#9BE5E4" font-family="JetBrains Mono,Consolas,monospace" font-size="22" font-weight="600">MOBILE &amp; SOFTWARE ENGINEER</text>
-  <text x="72" y="290" fill="#9AA4AA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19">Flutter · iOS · Android · Backend · AI-assisted Engineering</text>
-
-  <g transform="translate(915,135)" opacity="0.95">
-    <rect x="0" y="0" width="250" height="110" rx="24" fill="#0F1B1D" stroke="#59C8C7" stroke-opacity="0.16"/>
-    <text x="24" y="40" fill="#F5F7F8" font-family="JetBrains Mono,Consolas,monospace" font-size="18">&lt;build</text>
-    <text x="115" y="40" fill="#59C8C7" font-family="JetBrains Mono,Consolas,monospace" font-size="18">mobile</text>
-    <text x="181" y="40" fill="#F5F7F8" font-family="JetBrains Mono,Consolas,monospace" font-size="18">/&gt;</text>
-    <text x="24" y="72" fill="#6E7681" font-family="JetBrains Mono,Consolas,monospace" font-size="15">clean • scalable</text>
-    <text x="24" y="95" fill="#6E7681" font-family="JetBrains Mono,Consolas,monospace" font-size="15">reliable • polished</text>
+  <g transform="translate(70 58)">
+    <rect width="88" height="88" rx="24" fill="#0F191C" stroke="#5ED7D4" stroke-opacity="0.35"/>
+    <path d="M27 21h24c15 0 25 8 25 20 0 12-9 20-23 20H41v18H27V21zm14 12v16h10c7 0 11-3 11-8s-4-8-11-8H41z" fill="url(#accent)"/>
   </g>
+
+  <text x="70" y="198" fill="#F5F7F8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="52" font-weight="750" letter-spacing=".5">PIERRE ORELLANA</text>
+  <text x="70" y="244" fill="#87E0DD" font-family="JetBrains Mono,Consolas,monospace" font-size="21" font-weight="600">INGENIERO DE SOFTWARE · DESARROLLADOR MOBILE</text>
+  <text x="70" y="285" fill="#9BA7AD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19">Flutter · iOS · Android · Backend · IA aplicada al desarrollo</text>
+
+  <g transform="translate(70 320)">
+    <rect width="176" height="36" rx="18" fill="#102125" stroke="#5ED7D4" stroke-opacity=".25"/>
+    <text x="24" y="23" fill="#D9F4F2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">Arquitectura limpia</text>
+    <rect x="192" width="150" height="36" rx="18" fill="#102125" stroke="#5ED7D4" stroke-opacity=".25"/>
+    <text x="219" y="23" fill="#D9F4F2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">Apps escalables</text>
+    <rect x="358" width="183" height="36" rx="18" fill="#102125" stroke="#5ED7D4" stroke-opacity=".25"/>
+    <text x="382" y="23" fill="#D9F4F2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">Enfoque en producto</text>
+  </g>
+
+  <g transform="translate(850 78)">
+    <rect x="0" y="0" width="292" height="246" rx="28" fill="#0B1417" stroke="#5ED7D4" stroke-opacity=".18"/>
+    <rect x="32" y="34" width="92" height="174" rx="19" fill="#101E22" stroke="#6FDAD6" stroke-opacity=".55" stroke-width="2"/>
+    <rect x="43" y="53" width="70" height="126" rx="11" fill="#0A1114"/>
+    <rect x="69" y="42" width="19" height="4" rx="2" fill="#325D62"/>
+    <circle cx="78" cy="194" r="6" fill="none" stroke="#5ED7D4" stroke-opacity=".45"/>
+    <path d="M60 83h36M60 102h27M60 121h36M60 140h21" stroke="#5ED7D4" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+    <circle cx="100" cy="102" r="4" fill="#B7E6E5"/>
+    <circle cx="90" cy="140" r="4" fill="#B7E6E5"/>
+
+    <rect x="164" y="40" width="96" height="42" rx="12" fill="#102125" stroke="#5ED7D4" stroke-opacity=".25"/>
+    <text x="184" y="66" fill="#DDF5F4" font-family="JetBrains Mono,Consolas,monospace" font-size="13">Mobile</text>
+    <rect x="164" y="102" width="96" height="42" rx="12" fill="#102125" stroke="#5ED7D4" stroke-opacity=".25"/>
+    <text x="181" y="128" fill="#DDF5F4" font-family="JetBrains Mono,Consolas,monospace" font-size="13">Backend</text>
+    <rect x="164" y="164" width="96" height="42" rx="12" fill="#102125" stroke="#5ED7D4" stroke-opacity=".25"/>
+    <text x="194" y="190" fill="#DDF5F4" font-family="JetBrains Mono,Consolas,monospace" font-size="13">Datos</text>
+
+    <path d="M124 92 C145 92 145 61 164 61" fill="none" stroke="#5ED7D4" stroke-width="2" opacity=".55"/>
+    <path d="M124 121 H164" fill="none" stroke="#5ED7D4" stroke-width="2" opacity=".55"/>
+    <path d="M124 151 C145 151 145 185 164 185" fill="none" stroke="#5ED7D4" stroke-width="2" opacity=".55"/>
+    <circle cx="145" cy="92" r="3.5" fill="#5ED7D4" filter="url(#softGlow)"/>
+    <circle cx="145" cy="121" r="3.5" fill="#5ED7D4" filter="url(#softGlow)"/>
+    <circle cx="145" cy="151" r="3.5" fill="#5ED7D4" filter="url(#softGlow)"/>
+  </g>
+
+  <text x="860" y="352" fill="#739399" font-family="JetBrains Mono,Consolas,monospace" font-size="13">mobile → arquitectura → producto</text>
+  <rect x=".5" y=".5" width="1279" height="429" rx="27.5" fill="none" stroke="#21454A" stroke-opacity=".72"/>
 </svg>
