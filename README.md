@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=6EDBD7&center=true&vCenter=true&width=900&lines=Flutter+%C2%B7+iOS+%C2%B7+Android+%C2%B7+Backend;Arquitectura+limpia+%C2%B7+SOLID+%C2%B7+Apps+escalables;Construyendo+productos%2C+no+solo+pantallas;IA+aplicada+al+desarrollo+de+software" alt="Especialidades de Pierre" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=A7795E&center=true&vCenter=true&width=900&lines=Flutter+%C2%B7+iOS+%C2%B7+Android+%C2%B7+Backend;Arquitectura+limpia+%C2%B7+SOLID+%C2%B7+Apps+escalables;Construyendo+productos%2C+no+solo+pantallas;IA+aplicada+al+desarrollo+de+software" alt="Especialidades de Pierre" />
 
 </div>
 
@@ -147,15 +147,15 @@ Backend de soporte para los flujos del proyecto bancario, pensado como contrapar
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=pierorellana&show_icons=true&hide_border=true&bg_color=00000000&title_color=6EDBD7&icon_color=6EDBD7&text_color=9BA7AD&rank_icon=github&locale=es" alt="Estadísticas de GitHub de Pierre" />
+<img height="175" src="https://github-readme-stats.vercel.app/api?username=pierorellana&show_icons=true&hide_border=true&bg_color=110703&title_color=A7795E&icon_color=6E3C19&text_color=D8C5B7&rank_icon=github&locale=es" alt="Estadísticas de GitHub de Pierre" />
 
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pierorellana&layout=compact&hide_border=true&bg_color=00000000&title_color=6EDBD7&text_color=9BA7AD&langs_count=8&locale=es" alt="Lenguajes más utilizados" />
+<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pierorellana&layout=compact&hide_border=true&bg_color=110703&title_color=A7795E&text_color=D8C5B7&langs_count=8&locale=es" alt="Lenguajes más utilizados" />
 
 </div>
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=pierorellana&hide_border=true&background=00000000&ring=6EDBD7&fire=6EDBD7&currStreakLabel=6EDBD7&sideLabels=9BA7AD&dates=6E7681&locale=es" alt="Racha de contribuciones" />
+<img src="https://streak-stats.demolab.com?user=pierorellana&hide_border=true&background=110703&ring=A7795E&fire=6E3C19&currStreakLabel=A7795E&sideLabels=D8C5B7&dates=A58B78&locale=es" alt="Racha de contribuciones" />
 
 </div>
 
@@ -180,7 +180,7 @@ Backend de soporte para los flujos del proyecto bancario, pensado como contrapar
 <div align="center">
 
 <a href="https://github.com/pierorellana">
-  <img src="https://img.shields.io/badge/GitHub-pierorellana-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub-pierorellana-110703?style=for-the-badge&logo=github&logoColor=F3EAE4" alt="GitHub" />
 </a>
 
 </div>
