@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="Pierre Orellana Mobile and Software Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0F12"/>
+      <stop offset="55%" stop-color="#0E1719"/>
+      <stop offset="100%" stop-color="#102729"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#59C8C7"/>
+      <stop offset="100%" stop-color="#9BE5E4"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="1115" cy="76" r="120" fill="#59C8C7" opacity="0.07"/>
+  <circle cx="1170" cy="310" r="170" fill="#59C8C7" opacity="0.04"/>
+  <path d="M0 305 C210 250, 300 352, 520 306 S850 250, 1280 315" fill="none" stroke="#59C8C7" stroke-opacity="0.18" stroke-width="2"/>
+  <path d="M0 325 C220 270, 350 365, 570 320 S900 270, 1280 336" fill="none" stroke="#9BE5E4" stroke-opacity="0.08" stroke-width="1.5"/>
+
+  <g transform="translate(72,72)">
+    <rect x="0" y="0" width="82" height="82" rx="22" fill="#102326" stroke="#59C8C7" stroke-opacity="0.35"/>
+    <path d="M27 21h21c14 0 23 7 23 19 0 11-8 18-20 18H40v17H27V21zm13 11v15h9c6 0 9-3 9-8s-3-7-9-7h-9z" fill="url(#accent)"/>
+  </g>
+
+  <text x="72" y="205" fill="#F5F7F8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="44" font-weight="700" letter-spacing="0.4">PIERRE ORELLANA</text>
+  <text x="72" y="248" fill="#9BE5E4" font-family="JetBrains Mono,Consolas,monospace" font-size="22" font-weight="600">MOBILE &amp; SOFTWARE ENGINEER</text>
+  <text x="72" y="290" fill="#9AA4AA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19">Flutter · iOS · Android · Backend · AI-assisted Engineering</text>
+
+  <g transform="translate(915,135)" opacity="0.95">
+    <rect x="0" y="0" width="250" height="110" rx="24" fill="#0F1B1D" stroke="#59C8C7" stroke-opacity="0.16"/>
+    <text x="24" y="40" fill="#F5F7F8" font-family="JetBrains Mono,Consolas,monospace" font-size="18">&lt;build</text>
+    <text x="115" y="40" fill="#59C8C7" font-family="JetBrains Mono,Consolas,monospace" font-size="18">mobile</text>
+    <text x="181" y="40" fill="#F5F7F8" font-family="JetBrains Mono,Consolas,monospace" font-size="18">/&gt;</text>
+    <text x="24" y="72" fill="#6E7681" font-family="JetBrains Mono,Consolas,monospace" font-size="15">clean • scalable</text>
+    <text x="24" y="95" fill="#6E7681" font-family="JetBrains Mono,Consolas,monospace" font-size="15">reliable • polished</text>
+  </g>
+</svg>
