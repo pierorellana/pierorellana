@@ -1,97 +1,55 @@
 <div align="center">
 
-<img src="./assets/profile-banner.svg" alt="Pierre Orellana — Mobile & Software Engineer" width="100%" />
+<img src="./assets/profile-banner.svg" alt="Pierre Orellana — Ingeniero de Software y Desarrollador Mobile" width="100%" />
 
 <br/>
 
-<a href="https://github.com/pierorellana">
-  <img src="https://img.shields.io/badge/GitHub-pierorellana-181717?style=for-the-badge&logo=github" alt="GitHub" />
-</a>
-
-<br/><br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=800&color=59C8C7&center=true&vCenter=true&width=760&lines=Flutter+%26+Mobile+Development;Native+iOS+%C2%B7+SwiftUI;Native+Android+%C2%B7+Kotlin;Clean+Architecture+%C2%B7+SOLID+%C2%B7+Scalable+Apps;Building+products%2C+not+just+screens." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=6EDBD7&center=true&vCenter=true&width=900&lines=Flutter+%C2%B7+iOS+%C2%B7+Android+%C2%B7+Backend;Arquitectura+limpia+%C2%B7+SOLID+%C2%B7+Apps+escalables;Construyendo+productos%2C+no+solo+pantallas;IA+aplicada+al+desarrollo+de+software" alt="Especialidades de Pierre" />
 
 </div>
 
 ---
 
-## About me
+## 👋 Sobre mí
 
-I'm **Pierre Orellana**, a Software Engineer focused on building polished, reliable and maintainable mobile products.
+Soy **Pierre Orellana**, Ingeniero en Software y desarrollador enfocado en crear **productos móviles modernos, mantenibles y listos para crecer**.
 
-My core work is centered around **Flutter**, with hands-on experience in **native iOS**, **native Android**, backend integrations, secure authentication flows, real-time services and production-oriented architecture.
+Mi especialidad principal es **Flutter**, complementada con experiencia en **iOS nativo, Android nativo, backend e integración de servicios**. Me interesa especialmente el punto donde se cruzan la arquitectura, la experiencia de usuario y la calidad técnica.
 
-- 📱 Mobile-first engineer: **Flutter · SwiftUI · Kotlin**
-- 🏗️ Architecture: **Clean Architecture · MVVM · SOLID · feature-based modularization**
-- 🔐 Product-minded: security, biometrics, resilient networking and maintainability
-- ⚙️ Backend experience: **.NET · Node.js · Python / FastAPI**
-- 🗄️ Data: **PostgreSQL · Oracle · SQL Server · Firebase**
-- 🤖 Interested in **AI-assisted development, agents, SDD and engineering harnesses**
-- 🇪🇨 Based in Ecuador
+~~~dart
+final pierre = {
+  'especialidad': 'Desarrollo Mobile',
+  'mobile': ['Flutter', 'SwiftUI', 'Kotlin'],
+  'backend': ['.NET', 'Node.js', 'FastAPI'],
+  'enfoque': ['Clean Architecture', 'SOLID', 'Producto', 'Calidad'],
+  'intereses': ['IA aplicada', 'Agentes', 'SDD', 'Engineering Harnesses'],
+};
+~~~
 
----
-
-## Tech stack
-
-<div align="center">
-
-### Mobile
-<img src="https://skillicons.dev/icons?i=flutter,dart,swift,kotlin,androidstudio" alt="Mobile stack" />
-
-### Backend
-<img src="https://skillicons.dev/icons?i=cs,dotnet,nodejs,python,fastapi" alt="Backend stack" />
-
-### Data & Cloud
-<img src="https://skillicons.dev/icons?i=postgres,firebase,azure,docker" alt="Data and cloud stack" />
-
-### Tools
-<img src="https://skillicons.dev/icons?i=git,github,vscode,figma" alt="Tools" />
-
-</div>
+> Mi objetivo no es solamente hacer que una app funcione, sino construirla de forma que siga siendo clara, segura y mantenible cuando el producto crezca.
 
 ---
 
-## Featured work
+## 🧭 En qué me enfoco
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 🏦 [BInova Mobile](https://github.com/pierorellana/binova_app)
-
-A production-minded banking experience built with Flutter, focused on secure flows, modular architecture, biometrics, resilient states and polished mobile UX.
-
-**Flutter · Provider · Clean Architecture · Biometrics · Firebase**
+### 📱 Mobile
+Aplicaciones multiplataforma y nativas con foco en rendimiento, experiencia de usuario y consistencia visual.
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 🚌 [yeGamo](https://github.com/pierorellana/yeGamo_proyect)
-
-A community-focused mobility product designed around public-transport visibility, route tracking and a modern mobile-first experience.
-
-**Flutter · Maps · Mobile UX · Product Design**
+### 🏗️ Arquitectura
+Separación por responsabilidades, Clean Architecture, SOLID, modularización y código testeable.
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 🍎 [MoviApp iOS](https://github.com/pierorellana/moviapp_prueba_tecnica_ios)
-
-Native iOS app with biometric access, REST networking, pagination, filters, local persistence and testable architecture.
-
-**SwiftUI · MVVM · Core Data · async/await · LocalAuthentication**
-
-</td>
-<td width="50%" valign="top">
-
-### 🤖 [Fraudia AI](https://github.com/pierorellana/backend-fraudia)
-
-Explainable anti-fraud prototype combining risk scoring, analytics and conversational AI to support human review.
-
-**FastAPI · PostgreSQL · Ollama · Angular · AI**
+### 🔐 Producto real
+Biometría, sesiones seguras, resiliencia de red, APIs, persistencia y flujos pensados para producción.
 
 </td>
 </tr>
@@ -99,42 +57,140 @@ Explainable anti-fraud prototype combining risk scoring, analytics and conversat
 
 ---
 
-## GitHub snapshot
+## 🛠️ Stack tecnológico
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=pierorellana&show_icons=true&hide_border=true&bg_color=00000000&title_color=59C8C7&icon_color=59C8C7&text_color=8B949E&rank_icon=github" alt="Pierre's GitHub stats" />
+### Mobile
+<img src="https://skillicons.dev/icons?i=flutter,dart,swift,kotlin,androidstudio" alt="Flutter, Dart, Swift, Kotlin y Android Studio" />
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pierorellana&layout=compact&hide_border=true&bg_color=00000000&title_color=59C8C7&text_color=8B949E&langs_count=8" alt="Top languages" />
+### Backend
+<img src="https://skillicons.dev/icons?i=cs,dotnet,nodejs,python,fastapi" alt="C Sharp, .NET, Node.js, Python y FastAPI" />
 
-</div>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=pierorellana&hide_border=true&background=00000000&ring=59C8C7&fire=59C8C7&currStreakLabel=59C8C7&sideLabels=8B949E&dates=6E7681" alt="GitHub streak" />
+### Datos, nube y herramientas
+<img src="https://skillicons.dev/icons?i=postgres,firebase,azure,docker,git,github,vscode,figma" alt="PostgreSQL, Firebase, Azure, Docker, Git, GitHub, VS Code y Figma" />
 
 </div>
 
 ---
 
-## Contribution flow
+## 🌟 Proyectos destacados
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏦 [BInova Mobile](https://github.com/pierorellana/binova_app)
+
+Experiencia bancaria mobile construida con Flutter, con autenticación, biometría, productos, operaciones, tarjetas virtuales, estados degradados y una arquitectura pensada para mantenimiento y escalabilidad.
+
+**Flutter · Provider · Clean Architecture · Firebase · Biométricos**
+
+</td>
+<td width="50%" valign="top">
+
+### 🚌 [yeGamo](https://github.com/pierorellana/yeGamo_proyect)
+
+Producto de movilidad urbana orientado a mejorar la visibilidad del transporte público, rutas y experiencia de viaje desde una interfaz mobile moderna.
+
+**Flutter · Mapas · UX/UI · Producto · Tiempo real**
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🍎 [MoviApp iOS](https://github.com/pierorellana/moviapp_prueba_tecnica_ios)
+
+Aplicación iOS nativa con autenticación biométrica, consumo REST, filtros, paginación, persistencia local, asincronía moderna y arquitectura basada en MVVM.
+
+**SwiftUI · MVVM · Core Data · async/await · LocalAuthentication**
+
+</td>
+<td width="50%" valign="top">
+
+### 🚘 [Control de acceso vehicular](https://github.com/pierorellana/tesis_app)
+
+Prototipo móvil para validar visitantes mediante QR, OCR, reconocimiento facial, lectura de placas y comunicación automatizada.
+
+**Flutter · FastAPI · PostgreSQL · OCR · Reconocimiento facial**
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 [Fraudia AI](https://github.com/pierorellana/backend-fraudia)
+
+Backend para análisis antifraude con scoring explicable, reglas, alertas, analítica y asistencia conversacional con IA.
+
+**FastAPI · PostgreSQL · Ollama · IA aplicada**
+
+</td>
+<td width="50%" valign="top">
+
+### 🔗 [BInova API](https://github.com/pierorellana/api_binova)
+
+Backend de soporte para los flujos del proyecto bancario, pensado como contraparte real de la aplicación móvil y sus operaciones.
+
+**API · Integración · Backend · Servicios para Mobile**
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📊 Actividad en GitHub
+
+<div align="center">
+
+<img height="175" src="https://github-readme-stats.vercel.app/api?username=pierorellana&show_icons=true&hide_border=true&bg_color=00000000&title_color=6EDBD7&icon_color=6EDBD7&text_color=9BA7AD&rank_icon=github&locale=es" alt="Estadísticas de GitHub de Pierre" />
+
+<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pierorellana&layout=compact&hide_border=true&bg_color=00000000&title_color=6EDBD7&text_color=9BA7AD&langs_count=8&locale=es" alt="Lenguajes más utilizados" />
+
+</div>
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=pierorellana&hide_border=true&background=00000000&ring=6EDBD7&fire=6EDBD7&currStreakLabel=6EDBD7&sideLabels=9BA7AD&dates=6E7681&locale=es" alt="Racha de contribuciones" />
+
+</div>
+
+---
+
+## 🐍 Flujo de contribuciones
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pierorellana/pierorellana/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pierorellana/pierorellana/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/pierorellana/pierorellana/output/github-contribution-grid-snake.svg" />
+  <img alt="Animación de contribuciones de GitHub" src="https://raw.githubusercontent.com/pierorellana/pierorellana/output/github-contribution-grid-snake.svg" />
 </picture>
 
 </div>
 
 ---
 
+## 🤝 Conecta conmigo
+
 <div align="center">
 
-### Build thoughtfully. Ship reliably. Keep learning.
+<a href="https://github.com/pierorellana">
+  <img src="https://img.shields.io/badge/GitHub-pierorellana-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
 
-<sub>Mobile · Software Architecture · Product Engineering · AI-assisted Development</sub>
+</div>
+
+<br/>
+
+<div align="center">
+
+### Código claro. Producto sólido. Mejora continua.
+
+<sub>Mobile · Arquitectura · Backend · IA aplicada al desarrollo</sub>
 
 </div>
